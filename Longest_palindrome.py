@@ -24,8 +24,7 @@ def maxPalindrome(string):
          B[i][k]=  B[i+1][k-1]
    return( B[0][n-1])
 
-file=open('C:\\Users\\zhong\\Desktop\\python_algorithm\\test.txt','r')
-string=file.read()
+string=input("Enter here: ")
 start = time.clock()
 if IsPalindrome(string)==True:
      print("This is a palindrome")
